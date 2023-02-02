@@ -41,4 +41,25 @@ body {
 .search-mobile {
   width: 30px;
   height: 30px;
+}
+
+.central-info {
+  padding-top: 74px;
+}
+
+.card-title {
+  text-decoration: none;
+}
+
+.user-name {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.post-data {
+  padding-left: 0.5rem;
+}
+
+.read-timer {
+  padding-left: 5rem;
 }/*# sourceMappingURL=styles.css.map */
