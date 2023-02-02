@@ -1,0 +1,44 @@
+body {
+  background-color: #ebeaea;
+}
+
+.logo-devto {
+  height: 40px;
+  width: 50px;
+}
+
+.nav-back {
+  background-color: white;
+}
+
+.bell-notify {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: -35px;
+  margin-top: 5px;
+}
+
+.input-search {
+  width: 400px;
+}
+
+.profile-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.aside-nav {
+  margin-right: 20px;
+}
+
+.search-mobile {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=styles.css.map */
