@@ -1,3 +1,4 @@
+
 .list-group {
   margin-top: 1rem;
   /*off canvas navbar*/
@@ -32,4 +33,70 @@ svg {
 .card-left-aside-text {
   text-decoration: none;
   font-size: 15px;
+
+body {
+  background-color: #ebeaea;
+}
+
+.logo-devto {
+  height: 40px;
+  width: 50px;
+}
+
+.nav-back {
+  background-color: white;
+}
+
+.bell-notify {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: -35px;
+  margin-top: 5px;
+}
+
+.input-search {
+  width: 400px;
+}
+
+.profile-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.aside-nav {
+  margin-right: 20px;
+}
+
+.search-mobile {
+  width: 30px;
+  height: 30px;
+}
+
+.central-info {
+  padding-top: 74px;
+}
+
+.card-title {
+  text-decoration: none;
+}
+
+.user-name {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.post-data {
+  padding-left: 0.5rem;
+}
+
+.read-timer {
+  padding-left: 5rem;
+
 }/*# sourceMappingURL=styles.css.map */

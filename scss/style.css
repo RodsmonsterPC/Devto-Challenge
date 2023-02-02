@@ -1,0 +1,26 @@
+body {
+  background-color: grey;
+}
+
+.size {
+  width: 18rem;
+}
+
+.list-group-item:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.new {
+  color: brown;
+  font-size: 18px;
+}
+
+.title:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.discuss:hover {
+  background-color: #f8f9fa;
+}/*# sourceMappingURL=style.css.map */
