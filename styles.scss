@@ -1,3 +1,4 @@
+
 body {
   background-color: #ebeaea;
 }
@@ -103,3 +104,115 @@ aside {
     font-size: 15px;
   }
 }
+
+
+aside{
+    
+
+.list-group {
+    margin-top: 1rem;
+
+    .list-group-item {
+        font-size: 15px;
+        // margin-top: 1rem;
+        border: none;
+
+        &:hover {
+            text-decoration: underline;
+            color: blue;
+            background-color: rgba(196, 196, 246, 0.609);
+        }
+    }
+
+    /*off canvas navbar*/
+    .emoticons {
+        height: 20px;
+        margin-bottom: .5rem;
+        margin-right: .5rem;
+    }
+}
+
+.btn-card {
+    color: purple
+}
+
+svg{
+    fill: gray;
+}
+
+.card-aside{
+    margin-top: 100px;
+
+    
+}    
+.card-left-aside-text{
+    text-decoration: none;
+    font-size: 15px;}
+}
+=======
+body {
+  background-color: #ebeaea;
+}
+
+.logo-devto {
+  height: 40px;
+  width: 50px;
+}
+
+.nav-back {
+  background-color: white;
+}
+
+.bell-notify {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: -35px;
+  margin-top: 5px;
+}
+
+.input-search {
+  width: 400px;
+}
+
+.profile-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.aside-nav {
+  margin-right: 20px;
+}
+
+.search-mobile {
+  width: 30px;
+  height: 30px;
+}
+
+.central-info {
+  padding-top: 74px;
+}
+
+.card-title {
+  text-decoration: none;
+}
+
+.user-name {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.post-data {
+  padding-left: 0.5rem;
+}
+.read-timer {
+  padding-left: 5rem;
+}
+
+
