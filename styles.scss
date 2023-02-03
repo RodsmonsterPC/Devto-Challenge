@@ -1,43 +1,16 @@
-aside{
-    
-
-.list-group {
-    margin-top: 1rem;
-
-    .list-group-item {
-        font-size: 15px;
-        // margin-top: 1rem;
-        border: none;
-
-        &:hover {
-            text-decoration: underline;
-            color: blue;
-            background-color: rgba(196, 196, 246, 0.609);
-        }
+footer{
+    background-color: rgba(164, 163, 163, 0.242);
+    a{
+        text-decoration: inherit;
     }
-
-    /*off canvas navbar*/
-    .emoticons {
-        height: 20px;
-        margin-bottom: .5rem;
-        margin-right: .5rem;
-    }
-}
-
-.btn-card {
-    color: purple
-}
-
-svg{
-    fill: gray;
-}
-
-.card-aside{
-    margin-top: 100px;
-
     
-}    
-.card-left-aside-text{
-    text-decoration: none;
-    font-size: 15px;}
+}
+
+.footerlist li{
+    
+list-style: inline;
+}
+
+.footerliitem{
+    padding: auto;
 }

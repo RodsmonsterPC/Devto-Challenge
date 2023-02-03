@@ -1,35 +1,14 @@
-.list-group {
-  margin-top: 1rem;
-  /*off canvas navbar*/
+footer {
+  background-color: rgba(164, 163, 163, 0.242);
 }
-.list-group .list-group-item {
-  font-size: 15px;
-  border: none;
-}
-.list-group .list-group-item:hover {
-  text-decoration: underline;
-  color: blue;
-  background-color: rgba(196, 196, 246, 0.609);
-}
-.list-group .emoticons {
-  height: 20px;
-  margin-bottom: 0.5rem;
-  margin-right: 0.5rem;
+footer a {
+  text-decoration: inherit;
 }
 
-.btn-card {
-  color: purple;
+.footerlist li {
+  list-style: inline;
 }
 
-svg {
-  fill: gray;
-}
-
-.card-aside {
-  margin-top: 100px;
-}
-
-.card-left-aside-text {
-  text-decoration: none;
-  font-size: 15px;
+.footerliitem {
+  padding: auto;
 }/*# sourceMappingURL=styles.css.map */
