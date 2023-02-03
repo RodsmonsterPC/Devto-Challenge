@@ -62,4 +62,36 @@ body {
 
 .read-timer {
   padding-left: 5rem;
+}
+
+aside .list-group {
+  margin-top: 1rem;
+  /*off canvas navbar*/
+}
+aside .list-group .list-group-item {
+  font-size: 15px;
+  border: none;
+}
+aside .list-group .list-group-item:hover {
+  text-decoration: underline;
+  color: blue;
+  background-color: rgba(196, 196, 246, 0.609);
+}
+aside .list-group .emoticons {
+  height: 20px;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+aside .btn-card {
+  color: purple;
+}
+aside svg {
+  fill: gray;
+}
+aside .card-aside {
+  margin-top: 100px;
+}
+aside .card-left-aside-text {
+  text-decoration: none;
+  font-size: 15px;
 }/*# sourceMappingURL=styles.css.map */
