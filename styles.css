@@ -1,3 +1,39 @@
+
+.list-group {
+  margin-top: 1rem;
+  /*off canvas navbar*/
+}
+.list-group .list-group-item {
+  font-size: 15px;
+  border: none;
+}
+.list-group .list-group-item:hover {
+  text-decoration: underline;
+  color: blue;
+  background-color: rgba(196, 196, 246, 0.609);
+}
+.list-group .emoticons {
+  height: 20px;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.btn-card {
+  color: purple;
+}
+
+svg {
+  fill: gray;
+}
+
+.card-aside {
+  margin-top: 100px;
+}
+
+.card-left-aside-text {
+  text-decoration: none;
+  font-size: 15px;
+
 body {
   background-color: #ebeaea;
 }
@@ -41,4 +77,61 @@ body {
 .search-mobile {
   width: 30px;
   height: 30px;
+}
+
+.central-info {
+  padding-top: 74px;
+}
+
+.card-title {
+  text-decoration: none;
+}
+
+.user-name {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.post-data {
+  padding-left: 0.5rem;
+}
+
+.read-timer {
+  padding-left: 5rem;
+
+}
+
+aside .list-group {
+  margin-top: 1rem;
+  /*off canvas navbar*/
+}
+aside .list-group .list-group-item {
+  font-size: 15px;
+  border: none;
+}
+aside .list-group .list-group-item:hover {
+  text-decoration: underline;
+  color: blue;
+  background-color: rgba(196, 196, 246, 0.609);
+}
+aside .list-group .emoticons {
+  height: 20px;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+aside .btn-card {
+  color: purple;
+}
+aside svg {
+  fill: gray;
+}
+aside .card-aside {
+  margin-top: 100px;
+}
+aside .card-left-aside-text {
+  text-decoration: none;
+  font-size: 15px;
+
+
+
 }/*# sourceMappingURL=styles.css.map */
