@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="scss/post-pagestyle.css">
+</head>
+
+<body>
+    <div class="container-fluid nav-back">
+        <div class="row">
+            <div class="col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="navbar nav-back fixed-top">
+                                <div class="container d-flex justify-content-start">
+                                    <!-- Hamburguesa -->
+                                    <button class="navbar-toggler d-md-none aside-nav" type="button"
+                                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                                        aria-controls="offcanvasDarkNavbar">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+
+                                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar"
+                                        aria-labelledby="offcanvasDarkNavbarLabel">
+                                        <div class="offcanvas-header">
+                                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                                                Dark offcanvas
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Link</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">Another action</a>
+                                                        </li>
+                                                        <li>
+                                                            <hr class="dropdown-divider" />
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <form class="d-flex mt-3" role="search">
+                                                <input class="form-control me-2" type="search" placeholder="Search"
+                                                    aria-label="Search" />
+                                                <button class="btn btn-success" type="submit">
+                                                    Search
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!-- Components -->
+                                    <a class="navbar-brand" href="#">
+                                        <img class="logo-devto"
+                                            src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
+                                            alt="" />
+                                    </a>
+                                    <div class="d-flex justify-content-between flex-grow-1">
+                                        <form class="d-none d-md-flex" role="search">
+                                            <input class="form-control input-search" type="search"
+                                                placeholder="Search..." aria-label="Search" />
+                                            <img class="search-icon" src="./images/Lupa.png" alt="" />
+                                        </form>
+                                        <div class="d-none d-md-flex">
+                                            <button class="btn btn-primary">Login</button>
+                                            <img class="bell-notify" src="./images/Campana notificaicones.png" alt="" />
+                                            <img class="profile-logo" src="./images/Logo-png.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="d-flex d-md-none">
+                                        <img class="search-mobile" src="./images/Lupa.png" alt="" />
+                                        <img class="bell-notify" src="./images/Campana notificaicones.png" alt="" />
+                                        <img class="profile-logo" src="./images/Logo-png.png" alt="" />
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <h2>text</h2>
+            </div>
+            <div class="col-12 col-md-6"></div>
+            <div class="col-12 col-md-3"></div>
+        </div>
+    </div>
+
+    <section class="container p-4">
+        <div class="row p-2">
+            <aside class="col-lg-2">
+                <div class="aside-icon-bar">
+                  <div class="aside-icon-container">
+                    <input
+                      type="checkbox"
+                      id="aside-icon-checkboxheart"
+                      class="checkboxhider"
+                    />
+                    <label
+                      for="aside-icon-checkboxheart"
+                      class="checkedlabel"
+                      id="checkboxheaartlabel"
+                    >
+                      <img src="images/heart.png" alt="" class="aside-icon-default" />
+        
+                      <img
+                        src="images/hearthover.png"
+                        alt=""
+                        class="aside-icon-hover"
+                      />
+                      <img src="images/heartring1.png" alt="" class="bigring" />
+                      <img
+                        src="images/heartcheked.png"
+                        alt=""
+                        class="aside-icon-cheked"
+                        id="heart"
+                      />
+                    </label>
+        
+                    <div class="asidecount"><small>15</small></div>
+                  </div>
+        
+                  <div class="aside-icon-container">
+                    <input
+                      type="checkbox"
+                      id="aside-icon-checkboxunicorn"
+                      class="checkboxhider"
+                    />
+                    <label for="aside-icon-checkboxunicorn" class="checkedlabel">
+                      <img
+                        src="images/unicorn.png"
+                        alt=""
+                        class="aside-icon-default"
+                      />
+                      <img
+                        src="images/unicornhover.png"
+                        alt=""
+                        class="aside-icon-hover"
+                      />
+                      <img src="images/ringunicorn.png" alt="" class="bigring" />
+                      <img
+                        src="images/unicorncheked.png"
+                        alt=""
+                        class="aside-icon-cheked"
+                        id="unicorn"
+                      />
+                    </label>
+                    <div class="asidecount"><small>3</small></div>
+                  </div>
+                  <div class="aside-icon-container">
+                    <input
+                      type="checkbox"
+                      id="aside-icon-checkboxsave"
+                      class="checkboxhider"
+                    />
+                    <label for="aside-icon-checkboxsave" class="checkedlabel">
+                      <img src="images/save.png" alt="" class="aside-icon-default" />
+                      <img
+                        src="images/savehover.png"
+                        alt=""
+                        class="aside-icon-hover"
+                      />
+                      <img src="images/savering1.png" alt="" class="bigring" />
+                      <img
+                        src="images/savercheked.png"
+                        alt=""
+                        class="aside-icon-cheked"
+                        id="save"
+                      />
+                    </label>
+                    <div class="asidecount"><small>10</small></div>
+                  </div>
+                </div>
+              </aside>
+            <main class="col-lg-7">
+                <div class="card">
+                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--x5TIXS6B--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jxc9uzhsads1z932whnz.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-body p-2">
+                            <img class="profile-logo mb-1" src="./images/Logo-png.png" alt="" />
+                            <h5 class="card-title">Ram Maheshwari</h5>
+                            <span class="card-title mb-2">Posten on 27 ene</span>
+                        </div>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--x5TIXS6B--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jxc9uzhsads1z932whnz.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-body p-2">
+                            <img class="profile-logo mb-1" src="./images/Logo-png.png" alt="" />
+                            <h5 class="card-title">Ram Maheshwari</h5>
+                            <span class="card-title mb-2">Posten on 27 ene</span>
+                        </div>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--x5TIXS6B--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jxc9uzhsads1z932whnz.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-body p-2">
+                            <img class="profile-logo mb-1" src="./images/Logo-png.png" alt="" />
+                            <h5 class="card-title">Ram Maheshwari</h5>
+                            <span class="card-title mb-2">Posten on 27 ene</span>
+                        </div>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--x5TIXS6B--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jxc9uzhsads1z932whnz.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-body p-2">
+                            <img class="profile-logo mb-1" src="./images/Logo-png.png" alt="" />
+                            <h5 class="card-title">Ram Maheshwari</h5>
+                            <span class="card-title mb-2">Posten on 27 ene</span>
+                        </div>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--x5TIXS6B--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jxc9uzhsads1z932whnz.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-body p-2">
+                            <img class="profile-logo mb-1" src="./images/Logo-png.png" alt="" />
+                            <h5 class="card-title">Ram Maheshwari</h5>
+                            <span class="card-title mb-2">Posten on 27 ene</span>
+                        </div>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </main>
+            <aside class="col-lg-3 d-none d-lg-block position">
+                <!-- Profile card -->
+                <div class="card border border-light size">
+                    <div class="card-body p-2">
+                        <img class="profile-logo mb-1" src="./images/Logo-png.png" alt="" />
+                        <span class="card-title fw-bold fs-4 mb-2">Ram Maheshwari</span>
+                        <button class="w-100 rounded bg-primary p-2 border border-light text-white">Follow</button>
+                    </div>
+                    <div class="">
+                        <span>Frontend Web Developer 👨‍💻 - Content Creator 🚀 - Indie Maker 🥑</span>
+                        <div>
+                            <h5>Location</h5>
+                            <span>India</span>
+                        </div>
+                        <div>
+                            <h5>Work</h5>
+                            <span>Freelance Frontend Developer</span>
+                        </div>
+                        <div>
+                            <h5>Joined</h5>
+                            <span>20 ago 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <!--More From Card -->
+                <div class="card mt-4 size">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-8 title">More from <span class="text-primary fs-8">Ram
+                                Maheshwari</span></h5>
+                    </div>
+                    <div class="p-2 discuss">
+                        <p class="card-text title mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="card-link text-decoration-none text-secondary">#javascript #webdev #react
+                            #html</a>
+                    </div>
+                    <div class="p-2 discuss">
+                        <p class="card-text title mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="card-link text-decoration-none text-secondary">#javascript #webdev #react
+                            #html</a>
+                    </div>
+                    <div class="p-2 discuss">
+                        <p class="card-text title mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="card-link text-decoration-none text-secondary">#javascript #webdev #react
+                            #html</a>
+                    </div>
+                </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    </section>
+</body>
+
+</html>
