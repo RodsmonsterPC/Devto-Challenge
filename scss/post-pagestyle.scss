@@ -109,3 +109,13 @@ $iconred: #DC1B26;
         position: relative;
         top: 30px;
     }
+    footer {
+      background-color: rgba(164, 163, 163, 0.242);
+    }
+    footer a {
+      text-decoration: inherit;
+    }
+    
+    .footerlist li {
+      list-style: inline;
+    }
